@@ -17,7 +17,6 @@ var updateCallback = function(data){
     }
     ).then(function(res){
     document.getElementById("Title").innerHTML = res.Title;
-    document.getElementById("Hero").innerHTML = res.Hero;
     document.getElementById("Year").innerHTML = res.Year;
     document.getElementById("Genre").innerHTML = res.Genre;
     document.getElementById("Plot").innerHTML = res.Plot;
